@@ -1,0 +1,74 @@
+.sticky-top {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.logo {
+    height: 46px;
+    width: 60px;
+}
+#nav-list {
+    display: flex !important;
+    padding: 0px !important;
+}
+#nav-list .search {
+    width: 52.5rem;
+    height:40px;
+    align-self: center;
+}
+.nav .nav-text .login-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+@media(max-width: 1199px) {
+    #nav-list .search {
+        width: 40rem;
+        margin-left: 10px !important;
+    }
+    .nav .nav-text .login-img {
+        width: 25px;
+        height: 25px;
+    }
+    .nav {
+        display: flex !important;
+        font-size: 15px;
+    }
+}
+@media (max-width:991px) {
+    #nav-list .search {
+        width: 25rem;
+    }
+}
+@media (max-width:767px) {
+    .toggler .menuIcon {
+        display: block !important;
+    }
+    #nav-list {
+        display: block !important;
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        left: 0;
+        height: 0;
+        padding: 30px 100px !important;
+        background-color: rgb(33,37,41);
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .nav {
+        display: block !important;
+    }
+    #nav-list .search {
+        width: 100%;
+    }
+    #nav-list.active {
+        height: 220px !important;
+        opacity: 1;
+    }
+}
+@media(max-width:575px) {
+    .toggler .menuIcon {
+        margin-left: 25px;
+    }
+}
