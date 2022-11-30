@@ -1,0 +1,25 @@
+.sub-tile {
+    color: #272727;
+    font-family: Almarai;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+.shopping-now {
+    padding: 5px;
+    height: 35px;
+    width: 90px;
+    color: #272727;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #272727;
+    border-radius: 14px;
+}
+.shopping-now:hover {
+    background-color: #272727;
+    border: 1px solid #272727;
+    color: #f9f9f9;
+    border-radius: 14px;
+    cursor: pointer;
+}

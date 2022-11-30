@@ -1,0 +1,17 @@
+.discount-backcolor {
+    height: 130px;
+    border-radius: 8px;
+    background: radial-gradient(circle, #767676 0%, #4d4f50 100%, #494c4d 100%);
+}
+.discount-title {
+    color: #ffffff;
+    font-family: Cairo;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 39px;
+}
+.dicount-img {
+    max-height: 130px;
+    max-width: 80%;
+}

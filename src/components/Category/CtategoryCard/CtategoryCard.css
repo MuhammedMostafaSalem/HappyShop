@@ -1,0 +1,25 @@
+.allCard {
+    position: relative;
+    height: 130px;
+    width: 130px;
+}
+.categoty-card {
+    height: 140px;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+.categoty-card-img {
+    max-width: 110px;
+    max-height: 100px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.categoty-card-text {
+    color: #555550;
+    font-family: Almarai;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,10 +1,19 @@
 import React from 'react'
 import Slider from '../../components/Home/Slider/Slider';
+import HomeCategory from './../../components/Home/HomeCategory/HomeCategory';
+import CardProductsContainer from './../../components/Products/CardProductsContainer';
+import DiscountSection from './../../components/Home/DiscountSection/DiscountSection';
+import BrandFeatured from './../../components/Brand/BrandFeatured';
 
 const HomePage = () => {
     return (
-        <div>
+        <div style={{minHeight:'670px'}}>
             <Slider/>
+            <HomeCategory/>
+            <CardProductsContainer title='الاكثر مبيعا' btnTitle='المزيد' />
+            <DiscountSection/>
+            <CardProductsContainer title='احدث الازياء' btnTitle='المزيد' />
+            <BrandFeatured title='اشهر الماركات' btnTitle='المزيد' />
         </div>
     )
 }
