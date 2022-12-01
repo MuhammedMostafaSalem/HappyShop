@@ -4,6 +4,7 @@ import { Container, Form, Nav, Navbar } from 'react-bootstrap'
 import logo from '../../../images/logo.png'
 import login from '../../../images/login.png'
 import cart from '../../../images/cart.png'
+import { Link } from 'react-router-dom'
 
 class NavBar extends Component {
     state = {clicked: false}
@@ -16,7 +17,9 @@ class NavBar extends Component {
             <Navbar className="sticky-top" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="/">
-                        <img src={logo} className='logo' />
+                        <Link to="/">
+                            <img src={logo} alt='' className='logo' />
+                        </Link>
                     </Navbar.Brand>
                     <div className='toggler'>
                         <div id='nav-list' className={this.state.clicked ? "active" : "#nav-list"}>
@@ -27,16 +30,16 @@ class NavBar extends Component {
                                 aria-label="Search"
                             />
                             <Nav className="me-auto nav">
-                                <Nav.Link className="nav-text d-flex mt-3 justify-content-center">
+                                <Link to='/Login' className="nav-link nav-text d-flex mt-3 justify-content-center">
                                     <img src={login} className="login-img" alt="sfvs" />
                                     <p style={{ color: "white" }}>دخول</p>
-                                </Nav.Link>
-                                <Nav.Link href='/cart'
-                                    className="nav-text d-flex mt-3 justify-content-center"
+                                </Link>
+                                
+                                <Link to='/Cart' className="nav-link nav-text d-flex mt-3 justify-content-center"
                                     style={{ color: "white" }}>
                                     <img src={cart} className="login-img" alt="sfvs" />
                                     <p style={{ color: "white" }}>العربه</p>
-                                </Nav.Link>
+                                </Link>
                             </Nav>
                         </div>
                         <div className='menuIcon text-white fs-4 d-none' onClick={this.handleClick}>

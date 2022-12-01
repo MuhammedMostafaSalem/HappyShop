@@ -1,5 +1,7 @@
 .footer {
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .footer-shroot {
     color: #979797;
@@ -8,13 +10,5 @@
     font-weight: bold;
     letter-spacing: 0;
     line-height: 18px;
-    cursor: pointer;
-}
-.footer-phone {
-    color: #979797;
-    font-family: "Almarai";
-    font-size: 13px;
-    font-weight: bold;
-    text-align: right;
     cursor: pointer;
 }
