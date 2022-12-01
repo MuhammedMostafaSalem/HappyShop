@@ -1,0 +1,24 @@
+.title-login {
+    color: #555550;
+    font-family: Almarai;
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: right;
+}
+.user-input {
+    box-sizing: border-box;
+    height: 45px;
+    width: 375px;
+    border: 1px solid #979797;
+    border-radius: 8px;
+}
+.btn-login {
+    height: 46px;
+    width: 250px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    background-color: #272727;
+}
