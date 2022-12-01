@@ -2,7 +2,7 @@ import HomePage from './pages/Home/HomePage';
 import NavBar from './components/Utility/Navbar/Navbar';
 import Footer from './components/Utility/Footer/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LoginPage from './pages/Auth/LoginPage/LoginPage';
+import LoginPage from './pages/Auth/LoginPage';
 import RegisterPage from './pages/Auth/RegisterPage';
 import CartPage from './pages/Cart/CartPage';
 
