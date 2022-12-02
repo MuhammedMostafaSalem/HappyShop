@@ -1,0 +1,30 @@
+.rate-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.rate-count {
+    color: #979797;
+    font-family: "Almarai";
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 23px;
+}
+.sub-tile {
+    color: #272727;
+    font-family: Almarai;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+.cat-rate {
+    color: #ffc107;
+    font-family: "Almarai";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: right;
+}
