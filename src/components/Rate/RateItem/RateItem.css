@@ -1,0 +1,9 @@
+.RateItemBottom:not(:last-child) {
+    border-bottom: 1px solid rgb(161, 160, 160);
+}
+.rate-name , .rate-description {
+    color: #555550;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+}
