@@ -1,0 +1,12 @@
+.rate-name {
+    color: #555550;
+    font-family: "Almarai";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+.form-control {
+    width: 100%;
+    background-color: #f9f9f9;
+}
