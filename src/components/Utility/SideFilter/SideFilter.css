@@ -1,0 +1,18 @@
+.filter-title {
+    color: #555550;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: right;
+}
+.filter-sub {
+    color: #555550;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 17px;
+    /* text-align: center; */
+}
+.form-check-input:focus {
+    box-shadow: none !important;
+}
