@@ -1,0 +1,23 @@
+.Category-header {
+    height: 100%;
+    background-color: white;
+}
+.category-text-header {
+    color: #979797;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 23px;
+    margin-left: 17px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.category-text-header:hover {
+    color: #fff;
+    background-color: #555550;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
