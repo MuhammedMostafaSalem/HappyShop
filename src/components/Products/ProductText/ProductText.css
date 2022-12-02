@@ -1,0 +1,67 @@
+.cat-text {
+    color: #979797;
+    font-family: "Almarai";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 23px;
+    text-align: right;
+}  
+.cat-title {
+    color: #555550;
+    font-family: Almarai;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: right;
+}  
+.cat-rate {
+    color: #ffc107;
+    font-family: "Almarai";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: right;
+}
+.color {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.product-description {
+    color: #555550;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 26px;
+    text-align: right;
+}
+.product-price {
+    height: 46px;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 9px;
+    color: #555550;
+    font-family: "Almarai";
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+.product-cart-add {
+    cursor: pointer;
+    text-align: center;
+    height: 45px;
+    border-radius: 9px;
+    border: none;
+    background-color: #272727;
+    color: #ffffff;
+    font-family: "Almarai";
+    font-size: 14px;
+    font-weight: normal;
+}
+.product-cart-add:hover {
+    color: #bdbaba !important;
+}
