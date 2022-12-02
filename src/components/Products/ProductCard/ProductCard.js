@@ -4,12 +4,17 @@ import { Card, Col } from 'react-bootstrap';
 import prod1 from "../../../images/prod1.png";
 import rate from "../../../images/rate.png";
 import favoff from "../../../images/fav-off.png";
+import { Link } from 'react-router-dom';
 
 const ProductCard = () => {
     return (
         <Col lg='3' md='6' sm='12'>
             <Card className="my-2" style={ {width: '100%' , height: "345px", borderRadius: "8px", border: "none", backgroundColor: "#FFFFFF", boxShadow: "0 2px 2px 0 rgba(151,151,151,0.5)"} }>
-                <Card.Img style={ {width:'100%' , height:'228px'} } src={prod1} />
+
+                <Link to='/Products/:id'>
+                    <Card.Img style={ {width:'100%' , height:'228px'} } src={prod1} />
+                </Link>
+
                 <div className="d-flex justify-content-end mx-2">
                     <img src={favoff} alt="" className="text-center" style={{ height: "24px", width: "26px",}} />
                 </div>
