@@ -1,0 +1,25 @@
+.sidebar {
+    border-radius: 21px;
+    background-color: #ffffff;
+    margin-top: 35px;
+}
+.admin-link:not(:last-child) {
+    border-bottom: 1px solid rgb(189, 187, 187);
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.admin-side-text {
+    color: #272727;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: right;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.admin-side-text:hover {
+    background-color: #272727;
+    color: white;
+    font-size: 14px;
+}
