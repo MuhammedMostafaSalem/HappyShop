@@ -1,0 +1,26 @@
+.adminCard {
+    border-radius: 30px !important;
+    border: none !important;
+}
+.item-delete-edit {
+    color: #979797;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: right;
+    cursor: pointer;
+}
+.card-price {
+    color: #272727;
+    font-family: Almarai;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+.card-currency {
+    color: #555550;
+    font-family: Almarai;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
