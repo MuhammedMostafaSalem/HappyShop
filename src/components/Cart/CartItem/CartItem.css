@@ -1,0 +1,25 @@
+.cart-item-body {
+    height: 229px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+.cart-title {
+    color: #555550;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: right;
+}
+.cat-text {
+    color: #979797;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 23px;
+    text-align: right;
+}
+.cat-title {
+    color: #555550;
+    font-size: 14px;
+    text-align: right;
+}
