@@ -20,6 +20,7 @@ import AdminAddProductsPage from './pages/Admin/AdminAddProductsPage';
 import UserAllOrdersPage from './pages/User/UserAllOrdersPage';
 import UserFavoriteProductsPage from './pages/User/UserFavoriteProductsPage';
 import UserAllAddresPage from './pages/User/UserAllAddresPage';
+import UserAddAddressPage from './pages/User/UserAddAddressPage';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
             <Route path="/user/allorders" element={<UserAllOrdersPage/>} />
             <Route path="/user/favoriteproducts" element={<UserFavoriteProductsPage/>} />
             <Route path="/user/addresses" element={<UserAllAddresPage/>} />
+            <Route path="/user/add-address" element={<UserAddAddressPage/>} />
           </Routes>
         <Footer/>
       </BrowserRouter>
