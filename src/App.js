@@ -19,6 +19,7 @@ import AdminAddSubCategoryPage from './pages/Admin/AdminAddSubCategoryPage';
 import AdminAddProductsPage from './pages/Admin/AdminAddProductsPage';
 import UserAllOrdersPage from './pages/User/UserAllOrdersPage';
 import UserFavoriteProductsPage from './pages/User/UserFavoriteProductsPage';
+import UserAllAddresPage from './pages/User/UserAllAddresPage';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
             <Route path="/admin/addproduct" element={<AdminAddProductsPage/>} />
             <Route path="/user/allorders" element={<UserAllOrdersPage/>} />
             <Route path="/user/favoriteproducts" element={<UserFavoriteProductsPage/>} />
+            <Route path="/user/addresses" element={<UserAllAddresPage/>} />
           </Routes>
         <Footer/>
       </BrowserRouter>
