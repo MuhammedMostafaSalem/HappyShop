@@ -1,0 +1,26 @@
+.cat-text {
+    color: #979797;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 23px;
+    text-align: right;
+}
+.cat-title {
+    color: #555550;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: right;
+}
+.cat-rate {
+    color: #ffc107;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    text-align: right;
+}
+.barnd-text {
+    color: #555550;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
