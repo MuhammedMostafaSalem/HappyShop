@@ -11,7 +11,7 @@ const UserSideBar = () => {
                         اداره الطلبات
                     </div>
                 </Link>
-                <Link to="/user/favoriteproducts/admin/allproducts" className='admin-link nav-link text-decoration-none'>
+                <Link to="/user/favoriteproducts" className='admin-link nav-link text-decoration-none'>
                     <div className="admin-side-text mt-1 p-2 mx-auto text-center">
                         المنتجات المفضلة
                     </div>
