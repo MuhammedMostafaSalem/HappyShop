@@ -1,0 +1,16 @@
+.user-order {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+.order-title {
+    color: #272727;
+    font-size: 16px;
+    font-weight: bold;
+}
+.stat {
+    color: #979797;
+    font-size: 13px;
+    text-align: right;
+}
